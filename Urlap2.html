@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stilus.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <h2>Szállítási cím módosítása</h2>
+            <td>
+                <form>
+                    <label for="name">Név</label><br>
+                    <input class="Nev" type="text" id="name" name="name">
+                </form>
+            </td>
+            <td>
+                <form>
+                    <label for="fname">Telefonszám</label><br>
+                    <input type="number" name="szam" value="36">
+                </form>
+            </td>
+            <td>
+                <form>
+                    <label for="fname"></label><br>
+                    <input  class="szam" type="text" id="szam" name="szam">
+                </form>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <form>
+                    <label for="iranyito">Irányítószám</label><br>
+                    <input type="text" id="iranyito" name="iranyito">
+
+                </form>
+            </td>
+
+            <td>
+                <form>
+                    <label>Város<input type="text" name="varos" list="varos"></label>
+
+                    <datalist id="varos">
+                        <option value="Debrecen">
+                        <option value="Budapest">
+                        <option value="Szeged">
+
+                    </datalist>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <form>
+                <label>Ország<input type="text" name="Orszag" list="Orszag"></label>
+                    <datalist id="Orszag">
+                        <option value="Magyarország">
+                        <option value="Lenygelország">
+                        <option value="Szlovákia">
+
+                    </datalist>
+
+                </form>
+            </td>
+
+            <td>
+                <form>
+                    <label for="iranyito">Cím</label><br>
+                    <input type="text" id="cim" name="cim">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
